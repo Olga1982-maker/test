@@ -5,5 +5,9 @@
     <key>ru</key>
     <value>Подписка на событие</value>
   </synonym>
-  <source/>
+  <source>
+    <types>DocumentObject</types>
+  </source>
+  <event>Filling</event>
+  <handler>CommonModule.ОбщийМодуль.ПодпискаНаСобытиеОбработкаЗаполнения</handler>
 </mdclass:EventSubscription>
