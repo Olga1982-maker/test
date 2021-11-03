@@ -39,5 +39,7 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <commonModules>CommonModule.ОбщийМодуль</commonModules>
+  <eventSubscriptions>EventSubscription.ПодпискаНаСобытие</eventSubscriptions>
   <documents>Document.Документ</documents>
 </mdclass:Configuration>
