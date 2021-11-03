@@ -5,5 +5,9 @@
     <key>ru</key>
     <value>Подписка на событие</value>
   </synonym>
-  <source/>
+  <source>
+    <types>DocumentObject.Документ</types>
+  </source>
+  <event>UndoPosting</event>
+  <handler>CommonModule.ОбщийМодуль.ПодпискаНаСобытиеОбработкаУдаленияПроведения</handler>
 </mdclass:EventSubscription>
