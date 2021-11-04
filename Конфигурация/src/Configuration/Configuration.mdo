@@ -42,5 +42,4 @@
   <commonModules>CommonModule.ОбщийМодуль</commonModules>
   <eventSubscriptions>EventSubscription.ПодпискаНаСобытие</eventSubscriptions>
   <documents>Document.Документ</documents>
-  <documents>Document.Документ1</documents>
 </mdclass:Configuration>
