@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1afc635a-8681-464f-ab12-07c48ce91cdf">
+  <producedTypes>
+    <objectType typeId="cc2a943f-228d-4d17-a23b-d65fc32f3db5" valueTypeId="e13d4cf1-b1f8-478b-b4f1-ecd23d2de3a3"/>
+    <refType typeId="c796aeb5-880b-4328-8443-1a92dd9fd27f" valueTypeId="41d02e82-e70b-47a7-b60e-eaee1415703e"/>
+    <selectionType typeId="e450ec32-aa43-4a96-b0a5-c9a43afe529b" valueTypeId="3fb048ca-8ac8-4db0-8b8a-bfe5a9ccdf47"/>
+    <listType typeId="7560abcc-f8e2-4e55-b7b9-26421cf89976" valueTypeId="b19aee95-2c80-4bd3-a94f-23c77a6f56e6"/>
+    <managerType typeId="71c8503a-2368-4448-8d33-9841af101f44" valueTypeId="44205bc8-e4f8-4e1f-9608-a312ed778a2d"/>
+  </producedTypes>
+  <name>Справочник</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочник</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Справочник.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Справочник.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
