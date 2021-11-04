@@ -46,4 +46,5 @@
   <enums>Enum.Перечисление</enums>
   <reports>Report.Отчет</reports>
   <dataProcessors>DataProcessor.Обработка</dataProcessors>
+  <chartsOfAccounts>ChartOfAccounts.ПланСчетов</chartsOfAccounts>
 </mdclass:Configuration>
