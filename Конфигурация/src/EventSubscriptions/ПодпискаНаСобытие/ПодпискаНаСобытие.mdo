@@ -6,6 +6,7 @@
     <value>Подписка на событие</value>
   </synonym>
   <source>
+    <types>DocumentObject</types>
     <types>DocumentObject.Документ</types>
   </source>
   <event>UndoPosting</event>
