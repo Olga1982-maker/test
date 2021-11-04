@@ -43,6 +43,7 @@
   <eventSubscriptions>EventSubscription.ПодпискаНаСобытие</eventSubscriptions>
   <catalogs>Catalog.Справочник</catalogs>
   <documents>Document.Документ</documents>
+  <enums>Enum.Перечисление</enums>
   <reports>Report.Отчет</reports>
   <dataProcessors>DataProcessor.Обработка</dataProcessors>
 </mdclass:Configuration>
