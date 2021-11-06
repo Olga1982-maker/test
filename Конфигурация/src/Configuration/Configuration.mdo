@@ -39,6 +39,7 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <roles>Role.Роль</roles>
   <commonModules>CommonModule.ОбщийМодуль</commonModules>
   <eventSubscriptions>EventSubscription.ПодпискаНаСобытие</eventSubscriptions>
   <catalogs>Catalog.Справочник</catalogs>
