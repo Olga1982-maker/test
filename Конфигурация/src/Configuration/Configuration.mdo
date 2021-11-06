@@ -48,4 +48,5 @@
   <dataProcessors>DataProcessor.Обработка</dataProcessors>
   <chartsOfAccounts>ChartOfAccounts.ПланСчетов</chartsOfAccounts>
   <chartsOfAccounts>ChartOfAccounts.ПланСчетов1</chartsOfAccounts>
+  <chartsOfAccounts>ChartOfAccounts.ПланСчетов2</chartsOfAccounts>
 </mdclass:Configuration>
