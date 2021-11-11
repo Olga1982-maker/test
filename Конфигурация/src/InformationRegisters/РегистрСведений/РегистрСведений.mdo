@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7c8a33d5-629d-49cf-800e-fce65aea8fa0">
+  <producedTypes>
+    <selectionType typeId="d261223e-c3ea-47fd-9718-4298bbf6491e" valueTypeId="5545b623-48b3-4caa-a119-c131126039aa"/>
+    <listType typeId="85301b24-250a-46f8-a7a3-e5717fd95726" valueTypeId="3859693f-b37b-4c22-86d9-56d57d542d29"/>
+    <managerType typeId="54e3a26b-415d-47de-b778-bf81fd87bf8c" valueTypeId="3cfa09f2-8b19-4971-99a9-7dc019d0954f"/>
+    <recordSetType typeId="04256e5c-4d9d-4871-9639-390b260ea655" valueTypeId="b5ff8f18-d7b8-4d0e-80cd-88822b2fcaed"/>
+    <recordKeyType typeId="a8962d96-9ad9-45be-b6de-c709578db2c6" valueTypeId="9ba8fbf6-b439-4fa9-a71d-5341f9e1f952"/>
+    <recordType typeId="4bd908b2-a862-4899-8b08-4f2203195d64" valueTypeId="73912752-7e16-4a12-888b-1a8aacb1b2af"/>
+    <recordManagerType typeId="a3f42665-0c30-4a02-a1b1-3209c1cd864d" valueTypeId="12d0dae8-aa48-4350-8c02-ef19d74efc86"/>
+  </producedTypes>
+  <name>РегистрСведений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистр сведений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="43cfb600-7367-431f-8eda-e3770a197863">
+    <name>Измерение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Измерение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="28b679c3-4ae4-4978-99de-ccc8e8a33754">
+    <name>Измерение1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Измерение1</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

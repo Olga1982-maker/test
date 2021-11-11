@@ -46,7 +46,9 @@
   <documents>Document.Документ</documents>
   <reports>Report.Отчет</reports>
   <dataProcessors>DataProcessor.Обработка</dataProcessors>
+  <informationRegisters>InformationRegister.РегистрСведений</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.РегистрНакопления</accumulationRegisters>
+  <chartsOfAccounts>ChartOfAccounts.ПланСчетов2</chartsOfAccounts>
   <chartsOfAccounts>ChartOfAccounts.ПланСчетов</chartsOfAccounts>
   <chartsOfAccounts>ChartOfAccounts.ПланСчетов1</chartsOfAccounts>
-  <chartsOfAccounts>ChartOfAccounts.ПланСчетов2</chartsOfAccounts>
 </mdclass:Configuration>

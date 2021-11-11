@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1757d3fb-4973-41a0-912c-3e86544165ee">
+  <producedTypes>
+    <selectionType typeId="1caaba82-2ac5-4403-ac98-a60f7721a22a" valueTypeId="6c67a956-9988-46a1-8b33-7a90c1808606"/>
+    <listType typeId="5e43fd28-3f6e-4a10-ad87-a31d51b6a1a8" valueTypeId="84846ae0-e74f-4fca-acdb-e61b5bbb6889"/>
+    <managerType typeId="e5e71fd5-e53c-4349-9772-760468147720" valueTypeId="ff5cef26-f914-4165-9a9c-87f3db3bfb7c"/>
+    <recordSetType typeId="0c23daaf-9a57-4532-8c37-5cb92a8f11a5" valueTypeId="c1ac33a4-c544-4548-a1bb-9a4dcdf480a5"/>
+    <recordKeyType typeId="ab02838e-c98c-4b90-b668-834bb9145eaf" valueTypeId="6eddd2fa-590a-4ef4-b867-9ec378ba0504"/>
+    <recordType typeId="78c25710-0752-46a5-9ebf-aa30ad55a5be" valueTypeId="9b0ed0f8-7e46-46fb-9f18-490892d9c7d6"/>
+  </producedTypes>
+  <name>РегистрНакопления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистр накопления</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="6edc71a1-5b71-4474-a579-efaa12e2d296">
+    <name>Ресурс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ресурс</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="f15f5a35-5596-4c4f-bb1c-e63a28627cde">
+    <name>Измерение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Измерение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>
